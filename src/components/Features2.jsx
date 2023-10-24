@@ -35,28 +35,29 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-              Make Data-Driven Decisions
+              Experience Customizability
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              Categorization & Tags
             </h2>
-            <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
-            </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>
+                  <b>Effortless Categorization</b>: <br />
+                  Label a recipient or payee, and all corresponding transactions
+                  inherit the label automatically! Select categories such as
+                  Entertainment, Utility, Salary, Investment, and more from a
+                  simple dropdown.
+                </span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>
+                  <b>Transaction-Specific Tags</b>: <br />
+                  Add unique tags to your transactions, making them easier to
+                  identify and relate to.
+                </span>
               </li>
             </ul>
           </div>

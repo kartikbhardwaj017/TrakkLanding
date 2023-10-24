@@ -57,7 +57,7 @@ export const Hero = () => {
                 (window.location.href = "https://app.trakk.money/upload")
               }
             >
-              Get Started
+              Start Trakking!
             </div>
           </div>
         </motion.div>

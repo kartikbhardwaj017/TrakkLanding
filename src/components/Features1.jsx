@@ -23,25 +23,31 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Embrace Innovation</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
+                Visual Insights for Easy Understanding
               </h2>
-              <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
-              </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Real-time data visualization</span>
+                  <span>
+                    <b>Line Charts</b>: <br /> Watch your transactions come
+                    alive. Switch between daily, weekly, monthly, and yearly
+                    views.
+                  </span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Advanced predictive analytics</span>
+                  <span>
+                    <b>Interactive Graphs</b>: <br /> Just a click on the bar
+                    and you have all the details of your transactions at your
+                    fingertips.
+                  </span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Seamless integration with APIs</span>
+                  <span>
+                    <b>Pie Charts</b>: <br /> Get an instant visual distribution
+                    of your expenses and income based on recipients and payees.
+                  </span>
                 </li>
               </ul>
             </div>
