@@ -33,13 +33,13 @@ export const Brands = () => (
             </div>
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
-            <div className="flex flex-wrap">
-              
+            <div className="flex flex-wrap justify-center">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center mx-4">
                 <img
                   src={hdfcLogo}
                   alt="HDFC Logo"
                   className="w-32 h-[100px]"
+                  style={{ height: 32, width: 100 }}
                 />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center mx-4">
@@ -47,10 +47,16 @@ export const Brands = () => (
                   src={iciciLogo}
                   alt="ICICI Logo"
                   className="w-32 h-[100px]"
+                  style={{ height: 32, width: 100 }}
                 />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center mx-4">
-                <img src={sbiLogo} alt="SBI Logo" className="w-32 h-[90px]" />
+                <img
+                  src={sbiLogo}
+                  alt="SBI Logo"
+                  className="w-32 h-[90px]"
+                  style={{ height: 28, width: 100 }}
+                />
               </div>
             </div>
           </div>
