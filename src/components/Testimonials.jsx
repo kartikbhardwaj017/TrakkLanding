@@ -8,21 +8,21 @@ import testimonial3 from "../assets/images/testimonial3.png";
 const testimonialsData = [
   {
     customerName: "Vinay Sharma",
-    customerTitle: "Founder of Dashflow",
+    customerTitle: "Slef Employed",
     content:
       "Trakk has changed the way I look at my finances. It's not just an app; it's a financial companion.",
     image: testimonial1,
   },
   {
     customerName: "Ritik Bhardwaj",
-    customerTitle: "Founder of Dashflow",
+    customerTitle: "Student",
     content:
       "I've tried multiple expense trackers, but Trakk stands out. The bar graphs are a game-changer!",
     image: testimonial2,
   },
   {
     customerName: "Randhir Sharma",
-    customerTitle: "Founder of Dashflow",
+    customerTitle: "Software Engineer",
     content:
       "Before Trakk, I was always wondering where my money went. Now, I have a clear picture and can make informed decisions. A lifesaver!",
     image: testimonial3,

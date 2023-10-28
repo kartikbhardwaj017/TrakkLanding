@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
-import feature4 from "../assets/images/feature4.jpg";
+import feature1 from "../assets/images/incomeGraph.png";
+import feature4 from "../assets/images/expenseGraph.png";
+import feature3 from "../assets/images/incomePiechart.png";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
@@ -58,13 +57,6 @@ export const Features1 = () => {
                 <img
                   src={feature1}
                   alt="f1"
-                  className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
-                />
-              </div>
-              <div className="py-3 pl-3 pr-2 rounded ">
-                <img
-                  src={feature2}
-                  alt="f2"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
               </div>

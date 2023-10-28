@@ -5,18 +5,26 @@ import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 const footerData = [
   {
-    title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
+    title: "Team",
+    items: [
+      {
+        name: "Kartik Bhardwaj",
+        url: "https://www.linkedin.com/in/kartik-bhardwaj-3b25b4168/",
+      },
+      {
+        name: "Ankit Talluri",
+        url: "https://www.linkedin.com/in/ankit-talluri-94464a216/",
+      },
+      { name: "Chat GPT", url: "https://chat.openai.com" },
+    ],
   },
   {
     title: "Important Links",
     items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
-      "Terms & Conditions",
-      "Privacy Policy",
+      {
+        name: "Github Repository",
+        url: "",
+      },
     ],
   },
   {
@@ -41,16 +49,8 @@ export const Footer = () => {
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find
-                <a
-                  href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
-                  target="_blank"
-                  className="text-gray-100 ml-1.5 "
-                  aria-label="DarkAdmin"
-                >
-                  here.
-                </a>
+                Meticulously designed to give you a seamless and visually
+                appealing expense tracking experience.
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
@@ -75,16 +75,18 @@ export const Footer = () => {
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
+                <h3 className="mb-6 text-2xl font-bold text-white">Team</h3>
                 <ul>
                   {footerData[0].items.map((item, i) => (
                     <li key={i} className="mb-4">
                       <a
                         className="text-gray-400 hover:text-gray-300"
-                        href="#"
+                        href={item.url}
                         aria-label=""
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        {item}
+                        {item.name}
                       </a>
                     </li>
                   ))}
@@ -102,23 +104,7 @@ export const Footer = () => {
                         href="#"
                         aria-label=""
                       >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="w-full md:w-1/3 lg:w-auto">
-                <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
-                <ul>
-                  {footerData[2].items.map((item, i) => (
-                    <li key={i} className="mb-4">
-                      <a
-                        className="text-gray-400 hover:text-gray-300"
-                        href="#"
-                        aria-label=""
-                      >
-                        {item}
+                        {item.name}
                       </a>
                     </li>
                   ))}

@@ -7,8 +7,6 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
   { label: "Features", href: "#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
 ];
 
@@ -64,7 +62,7 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href="https://github.com/kartikbhardwaj017/trakk"
               target="_blank"
               aria-label="source code"
             >

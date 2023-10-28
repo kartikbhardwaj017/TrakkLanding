@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
-import dashboard from "../assets/images/dashboard.jpg";
+import dashboard from "../assets/images/screen.png";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -66,16 +66,19 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="relative w-screen flex justify-center ">
-            <img
-              src={dashboard}
-              alt="123"
-              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
-            />
+          <div className="relative w-screen flex justify-center">
+            <div className="w-[300px] h-[550px] mx-auto flex justify-center items-center rounded-xl custom-border-gray hero-dashboard-border-gradient">
+              <img
+                src={dashboard}
+                alt="123"
+                className="w-full h-full rounded-xl"
+              />
+            </div>
           </div>
         </motion.div>
+        
         <div className="relative w-screen flex justify-center ">
-          <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
+          <div className="custom-shape-divider-bottom-1665343298 mt-2 sm:mt-8 md:mt-26 hidden lg:block">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"

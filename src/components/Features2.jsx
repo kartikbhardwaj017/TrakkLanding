@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
-import feature5 from "../assets/images/feature5.jpg";
-import feature6 from "../assets/images/feature6.jpg";
+import feature5 from "../assets/images/categories.png";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (
@@ -15,17 +14,10 @@ export const Features2 = () => (
       <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
         <div className="w-11/12 sm:w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last lg:order-first">
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
-            <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
+            <div className="w-[300px] h-[550px] mx-auto flex justify-center items-center rounded-xl custom-border-gray">
               <img
                 src={feature5}
                 alt="f1"
-                className="rounded-xl  custom-border-gray"
-              />
-            </div>
-            <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
-              <img
-                src={feature6}
-                alt="f2"
                 className="rounded-xl  custom-border-gray"
               />
             </div>
