@@ -60,20 +60,11 @@ export const Features1 = () => {
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
               </div>
-            </div>
-            <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
                 <img
                   src={feature3}
                   alt="f3"
-                  className="rounded-xl  custom-border-gray"
-                />
-              </div>
-              <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature4}
-                  alt="f4"
-                  className="rounded-xl  custom-border-gray"
+                  className="rounded-xl  custom-border-gray custom-border-gray mx-auto sm:mx-unset"
                 />
               </div>
             </div>
