@@ -23,7 +23,7 @@ const footerData = [
     items: [
       {
         name: "Github Repository",
-        url: "",
+        url: "https://github.com/kartikbhardwaj017/trakk",
       },
     ],
   },
