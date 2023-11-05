@@ -14,7 +14,7 @@ const testimonialsData = [
     image: testimonial1,
   },
   {
-    customerName: "Ritik Bhardwaj",
+    customerName: "Ritika Bhardwaj",
     customerTitle: "Student",
     content:
       "I've tried multiple expense trackers, but Trakk stands out. The bar graphs are a game-changer!",
