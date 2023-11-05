@@ -8,7 +8,7 @@ import testimonial3 from "../assets/images/testimonial3.png";
 const testimonialsData = [
   {
     customerName: "Vinay Sharma",
-    customerTitle: "Slef Employed",
+    customerTitle: "Self Employed",
     content:
       "Trakk has changed the way I look at my finances. It's not just an app; it's a financial companion.",
     image: testimonial1,
