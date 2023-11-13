@@ -55,19 +55,13 @@ export const Footer = () => {
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
-                  <FacebookIcon />
-                </a>
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://x.com/beingkartik003?s=11"
                 >
                   <TwitterIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://www.instagram.com/kartikbhardwaj_2000/"
                 >
                   <InstagramIcon />
                 </a>
